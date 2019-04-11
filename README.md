@@ -1,4 +1,23 @@
 # OfficeSense
-Fun little program that displays my status, via SenseHat LED matrix, through a smoky window.
+Fun little program that displays office hours, current status, and random memes on a WaveShare e-ink display (connected to a Raspberry Pi).
 
-Requires the lovely [ECT animation library](https://github.com/EthanTamasar/python-sense-hat-animation).
+PHP/MySQL controls the data on an external server, enabling update from any location. 
+
+## Hardware
+
+* Raspberry Pi 3B
+* Waveshare 7.5" e-ink
+* LAMP stack
+
+## Software
+
+### LAMP Server
+
+* PHP 7.5 
+* MariaDB
+
+### Raspberry Pi
+
+* Python 3.3 (see `requirements.py` for package versions)
+
+## Installation 
